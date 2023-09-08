@@ -5,7 +5,7 @@ A restartable CSV importer for ruby using Redis.
 Look at ./import.rb for the code
 
 ## Class that you'll need
-```
+```ruby
 class RestartableCSVImporter
   TTL_IN_SECONDS = 7 * 24 * 60 * 60
 
